@@ -15,15 +15,17 @@ body{
 color: snow;
 }
 
+.about{
+  margin-top: auto;
+}
 .headers{
 	background : #ffde59;
   width: 100%;
-  position: fixed;
   padding-bottom: 50px;
+  height: auto;
 }
+
 .main2{
-  margin-top: 100vh;
-  padding-top: 50px;
   position: absolute;
   width: 100%;
 }
@@ -34,7 +36,7 @@ color: snow;
 
 .main2-2{
   background : #ffde59;
-  position: ;
+ 
 }
 .main2-2 .vd{
   background: snow;
