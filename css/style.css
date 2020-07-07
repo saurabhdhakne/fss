@@ -3,7 +3,8 @@ body{
   padding: 0;
   transition: background-color .5s;
   background-size:100%;
-
+  background: url('../img/img.jpeg');
+  background-size: cover;
 }
 
 .dropdown-toggle{
@@ -14,12 +15,14 @@ body{
 .dropdown-toggle:hover{
 color: snow;
 }
-
+.yamm{
+  background: url('../img/nav.png');
+  background-size: cover;
+}
 .about{
   margin-top: auto;
 }
 .headers{
-	background : #ffde59;
   width: 100%;
   padding-bottom: 50px;
   height: auto;
