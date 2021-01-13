@@ -7,6 +7,13 @@ body{
   background-size: cover;
 }
 
+.mgmlogo{
+  width: 10%;
+  height: auto;
+}
+.mgmheader{
+  width: 80%;
+}
 .dropdown-toggle{
   font-size: 1.5em;
   color: snow;
@@ -234,6 +241,17 @@ padding-left:10px ;
   .navbar #search form .input-group {
     width: 100%;
   }
+  
+  .mgmlogo{
+    width: 140px;
+    height: 70px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .mgmheader{
+    width: 100%;
+    height: auto;
+}
 }
 .navbar #basket-overview a {
   margin-left: 7px;
