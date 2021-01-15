@@ -25,6 +25,7 @@ color: snow;
 .yamm{
   background: url('../img/nav.png');
   background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about{
   margin-top: auto;
