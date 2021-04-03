@@ -2,14 +2,22 @@ body{
   margin: 0;
   padding: 0;
   transition: background-color .5s;
-  background-size:100%;
+  background-size:100%;   
   background: url('../img/img.jpeg');
   background-size: cover;
 }
-
 .mgmlogo{
-  width: 10%;
+  position: absolute;
+  left: 0;
+  width: 200px;
   height: auto;
+}
+.mgmHead, .Links{
+  color: #680000;
+  text-shadow: .5px 2px 10px rgba(0, 0, 0, .6)
+}
+.Links a{
+  color:rgb(17, 17, 17);
 }
 .mgmheader{
   width: 80%;
@@ -18,7 +26,6 @@ body{
   font-size: 1.5em;
   color: snow;
 }
-
 .dropdown-toggle:hover{
 color: snow;
 }
@@ -247,15 +254,19 @@ padding-left:10px ;
   }
   
   .mgmlogo{
-    width: 140px;
-    height: 70px;
+    /* width: 150px; */
     margin-left: 50%;
     transform: translateX(-50%);
+  }
+  .mgmHead{
+    font-size:2em;
+    margin-top: 120px;
   }
   .mgmheader{
     width: 100%;
     height: auto;
-}
+  }
+
 }
 .navbar #basket-overview a {
   margin-left: 7px;
