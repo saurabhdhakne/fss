@@ -256,7 +256,7 @@ padding-left:10px ;
     width: 100%;
   }
   .mgmlogo{
-    width: 80%;
+    width: 90%;
     height: auto;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -264,10 +264,6 @@ padding-left:10px ;
   .mgmHead{
     font-size:1.2em;
     /* margin-top: 120px; */
-  }
-  .mgmheader{
-    width: 100%;
-    height: auto;
   }
 
 }
