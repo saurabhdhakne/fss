@@ -255,15 +255,15 @@ padding-left:10px ;
   .navbar #search form .input-group {
     width: 100%;
   }
-  
   .mgmlogo{
-    /* width: 100px; */
+    width: 50px;
+    height: 20px;
     margin-left: 50%;
     transform: translateX(-50%);
   }
   .mgmHead{
-    font-size:3em;
-    margin-top: 120px;
+    font-size:1.3em;
+    /* margin-top: 120px; */
   }
   .mgmheader{
     width: 100%;
