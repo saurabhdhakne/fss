@@ -3,7 +3,7 @@ body{
   padding: 0;
   transition: background-color .5s;
   background-size:100%;   
-  background: url('../img/img.jpeg');
+  background: url('../img/img.png');
   background-size: cover;
 }
 .mgmlogo{
@@ -168,6 +168,10 @@ color: snow;
     left: 0;
   }
 }
+
+body{
+  background: url('../img/img.png');
+}
 .navbar .yamm-content h3 {
   font-size: 18px;
   text-transform: uppercase;
@@ -254,12 +258,12 @@ padding-left:10px ;
   }
   
   .mgmlogo{
-    /* width: 150px; */
+    /* width: 100px; */
     margin-left: 50%;
     transform: translateX(-50%);
   }
   .mgmHead{
-    font-size:2em;
+    font-size:2.5em;
     margin-top: 120px;
   }
   .mgmheader{
