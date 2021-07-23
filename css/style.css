@@ -3,7 +3,8 @@ body{
   padding: 0;
   transition: background-color .5s;
   background-size:100%;   
-  background: url('../img/img.png');
+  background: url('../img/figma1.png');
+  /* background: linear-gradient( #7bbd6785,#ffcc00); */
   background-size: cover;
 }
 .mgmlogo{
@@ -11,6 +12,17 @@ body{
   left: 0;
   width: 200px;
   height: auto;
+}
+.bg-heading{
+  background: #EFEFEF;
+  border-top:  15px solid #2E6248;;
+}
+.carousel{
+  box-shadow: 3px 3px 10px rgb(17, 17, 17,.5);
+  border-radius: 10px;
+}
+.carousel img{
+  border-radius: 10px;
 }
 .mgmHead, .Links{
   color: #680000;
@@ -30,7 +42,9 @@ body{
 color: snow;
 }
 .yamm{
-  background: url('../img/nav.png');
+  /* background: url('../img/nav.png'); */
+  background: #D0732E;
+  border: 5px solid #2E6248;
   background-size: cover;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -87,6 +101,7 @@ color: snow;
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #680000;
+  background: #2E6248;
   border-radius: 10px;
 }
 
@@ -165,7 +180,7 @@ color: snow;
   }
 }
 body{
-  background: url('../img/img.png');
+  /* background: url('../img/img.png'); */
 }
 .navbar .yamm-content h3 {
   font-size: 18px;
