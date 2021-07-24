@@ -10,8 +10,26 @@ body{
 .mgmlogo{
   /* position: absolute; */
   left: 0;
-  width: 200px;
+  width: 100%;
   height: auto;
+}
+.ringlogo{
+  width: 90%;
+  transition: 1s all;
+  border-radius: 50%;
+  animation: rotation 10s infinite linear;
+}
+.ringlogo:hover{
+  width: 60%;
+  transition: 1s all;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 .bg-heading{
   background: #EFEFEF;
@@ -26,6 +44,7 @@ body{
 }
 .mgmHead, .Links{
   color: #680000;
+  /* color: rgb(0, 0, 0); */
   /* text-shadow: .5px 2px 10px rgba(0, 0, 0, .6) */
 }
 .Links a{
@@ -101,7 +120,7 @@ color: snow;
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #680000;
-  background: #2E6248;
+  /* background: #2E6248; */
   border-radius: 10px;
 }
 
