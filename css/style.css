@@ -25,7 +25,7 @@ body{
   animation: rotation 30s infinite linear;
 }
 .ringlogo:hover{
-  width: 170px;
+  width: 250px;
   transition: 1s all;
 }
 @keyframes rotation {
