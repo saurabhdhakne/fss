@@ -144,9 +144,11 @@ body {
     position: relative;
     height: auto;
   }
-  .ringlogo {
+  .ringlogo,
+  .btrfy {
     display: none;
   }
+
   .main2 {
     margin-top: auto;
     position: relative;
