@@ -1,20 +1,20 @@
-body{
+body {
   margin: 0;
   padding: 0;
-  transition: background-color .5s;
-  background-size:100%;   
-  background: url('../img/figma1.png');
+  transition: background-color 0.5s;
+  background-size: 100%;
+  background: url("../img/figma1.png");
   /* background: linear-gradient( #7bbd6785,#ffcc00); */
   background-size: cover;
   overflow-x: hidden;
 }
-.mgmlogo{
+.mgmlogo {
   /* position: absolute; */
   left: 0;
   width: 100%;
   height: auto;
 }
-.ringlogo{
+.ringlogo {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -24,7 +24,7 @@ body{
   border-radius: 50%;
   animation: rotation 30s infinite linear;
 }
-.ringlogo:hover{
+.ringlogo:hover {
   width: 250px;
   transition: 1s all;
 }
@@ -36,82 +36,83 @@ body{
     transform: rotate(359deg);
   }
 }
-.bg-heading{
-  background: #EFEFEF;
-  border-top:  15px solid #2E6248;;
+.bg-heading {
+  background: #efefef;
+  border-top: 15px solid #2e6248;
 }
-.carousel{
-  box-shadow: 3px 3px 10px rgb(17, 17, 17,.5);
+.carousel {
+  box-shadow: 3px 3px 10px rgb(17, 17, 17, 0.5);
   border-radius: 10px;
 }
-.carousel img{
+.carousel img {
   border-radius: 10px;
 }
-.mgmHead, .Links{
+.mgmHead,
+.Links {
   color: #680000;
   /* color: rgb(0, 0, 0); */
   /* text-shadow: .5px 2px 10px rgba(0, 0, 0, .6) */
 }
-.Links a{
-  color:rgb(17, 17, 17);
+.Links a {
+  color: rgb(17, 17, 17);
 }
-.mgmheader{
+.mgmheader {
   width: 80%;
 }
-.dropdown-toggle{
+.dropdown-toggle {
   font-size: 1.5em;
   color: snow;
 }
-.dropdown-toggle:hover{
-color: snow;
+.dropdown-toggle:hover {
+  color: snow;
 }
-.yamm{
+.yamm {
   /* background: url('../img/nav.png'); */
-  background: #D0732E;
-  border: 5px solid #2E6248;
+  background: #d0732e;
+  border: 5px solid #2e6248;
   background-size: cover;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.about{
+.about {
   margin-top: auto;
 }
-.headers{
+.headers {
   width: 100%;
   padding-bottom: 50px;
   height: auto;
 }
 
-.main2{
-  position: absolute;
+.main2 {
+  /* position: absolute; */
   width: 100%;
 }
 
-.main2-1{
-  background: snow;  
-}
-
-.main2-2{
-  background : #ffde59;
- 
-}
-.main2-2 .vd{
+.main2-1 {
   background: snow;
 }
 
-.footer1{
-  color:snow;
+.main2-2 {
+  background: #ffde59;
+}
+.main2-2 .vd {
+  background: snow;
+}
+
+.footer1 {
+  color: snow;
   background: #680000;
 }
 
-.footer2{
+.footer2 {
   background: black;
   color: snow;
 }
- .main3{
-   position: absolute;
- }
+.main3 {
+  position: absolute;
+}
 
- /* width */
+/* width */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -130,16 +131,20 @@ color: snow;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 768px) {
-  .headers{
+  .headers {
     position: relative;
     height: auto;
   }
-  .main2{
+  .main2 {
     margin-top: auto;
     position: relative;
   }
@@ -203,7 +208,7 @@ color: snow;
     left: 0;
   }
 }
-body{
+body {
   /* background: url('../img/img.png'); */
 }
 .navbar .yamm-content h3 {
@@ -219,7 +224,7 @@ body{
   .navbar .yamm-content h3 {
     font-size: 14px;
   }
-  .card h5{
+  .card h5 {
     font-size: 1em;
   }
 }
@@ -229,8 +234,7 @@ body{
   border-bottom: dotted 1px #555555;
   letter-spacing: 0.08em;
 }
-.navbar .yamm-content h4
-{
+.navbar .yamm-content h4 {
   text-transform: uppercase;
   padding-bottom: 10px;
   border-bottom: dotted 1px #555555;
@@ -256,19 +260,17 @@ body{
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  
 }
-.navbar .yamm-content ul li a{
-padding-left:10px ;
-  
+.navbar .yamm-content ul li a {
+  padding-left: 10px;
 }
 
-.navbar .yamm-content ul a:first-child{
-  padding-left:0px ;
+.navbar .yamm-content ul a:first-child {
+  padding-left: 0px;
   font-weight: bold;
-  }
+}
 
-.navbar .yamm-content h4{
+.navbar .yamm-content h4 {
   margin-top: 10px;
   font-size: 15px;
   text-decoration: bold;
@@ -277,7 +279,7 @@ padding-left:10px ;
   color: blue;
   text-decoration: none;
   padding-left: 2px;
-  font-weight:bold;
+  font-weight: bold;
 }
 .navbar .yamm-content .banner {
   margin-bottom: 10px;
@@ -290,14 +292,14 @@ padding-left:10px ;
   .navbar #search form .input-group {
     width: 100%;
   }
-  .mgmlogo{
+  .mgmlogo {
     width: 95%;
     height: auto;
     margin-left: 50%;
     transform: translateX(-50%);
   }
-  .mgmHead{
-    font-size:2em;
+  .mgmHead {
+    font-size: 2em;
     /* margin-top: 120px; */
   }
 }
