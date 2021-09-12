@@ -144,6 +144,9 @@ body {
     position: relative;
     height: auto;
   }
+  .ringlogo {
+    display: none;
+  }
   .main2 {
     margin-top: auto;
     position: relative;
